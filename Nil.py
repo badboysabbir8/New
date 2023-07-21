@@ -114,7 +114,7 @@ def main_apv():
         print ''
         print '     Agar Ap Na Subscription Kar Le Ha To'
         raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
-        os.system('xdg-open https://wa.me/+923237528063')
+        os.system('xdg-open https://wa.me/+8801818512416')
 
 
 def main_system():
