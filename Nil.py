@@ -22,7 +22,7 @@ for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     sys.stdout.flush()
-    print(...)?
+    print(...)
 
 l1 = '100077'
 l2 = '100078'
