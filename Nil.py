@@ -21,8 +21,8 @@ os.system('rm -rf .txt')
 for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
+    print nmbr
     sys.stdout.flush()
-    print(nmbr)
 
 l1 = '100077'
 l2 = '100078'
@@ -63,13 +63,13 @@ cps = []
 def main_apv():
     imt = '+IMTIAZ=='
     os.system('clear')
-    print(logo)
+    print logo
     
     try:
         key1 = open('/sdcard/.android.txt', 'r').read()
     except IOError:
         os.system('clear')
-        print (logo)
+        print logo
         print '           You dont have subscrption'
         print '           Hello Dear Ya Cammonds Paid Han Or'
         print '           Ap Ke Subscription Nhi Ha Please Ap'
@@ -90,9 +90,9 @@ def main_apv():
         print ''
         print '     Agar Ap Na Subscription Kar Le Ha To'
         raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
-        os.system('xdg-open https://wa.me/+923237528063')
+        os.system('xdg-open https://wa.me/+8801818512416')
 
-    r1 = requests.get('https://raw.githubusercontent.com/Aradinhacker/new/main/imt.txt').text
+    r1 = requests.get('https://github.com/badboysabbir8/Control-room/blob/main/Approval.txt').text
     if key1 in r1:
         main_system()
     else:
