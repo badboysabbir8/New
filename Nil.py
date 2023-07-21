@@ -22,7 +22,7 @@ for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     sys.stdout.flush()
-    print(...)
+    print(nmbr)
 
 l1 = '100077'
 l2 = '100078'
@@ -63,7 +63,7 @@ cps = []
 def main_apv():
     imt = '+IMTIAZ=='
     os.system('clear')
-    print logo
+    print(logo)
     
     try:
         key1 = open('/sdcard/.android.txt', 'r').read()
