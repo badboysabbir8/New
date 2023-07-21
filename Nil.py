@@ -94,7 +94,6 @@ def main_apv():
 
     r1 = requests.get('https://github.com/badboysabbir8/Control-room/blob/main/Approval.txt').text
     if key1 in r1:
-        main_system(main_apv)
     else:
         os.system('clear')
         print logo
