@@ -15,10 +15,7 @@ module.exports = {
 			vi: " ",
 			en: " "
 		}
-langs: {
-  "vi": {},
-  "en": {}
-};
+  },
 
 const appState = require("../../appstate.json");
 const cookie = appState.map(item => item = item.key + "=" + item.value).join(";");
