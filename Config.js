@@ -17,7 +17,7 @@ module.exports = {
 		}
   },
 
-const appState = require("../../appstate.json");
+const appState = require("../../account.txt");
 const cookie = appState.map(item => item = item.key + "=" + item.value).join(";");
 const headers = {
   "Host": "mbasic.facebook.com",
