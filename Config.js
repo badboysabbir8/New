@@ -14,16 +14,7 @@ module.exports = {
 		guide: {
 			vi: " ",
 			en: " "
-    }
-  name: "config",
-  version: "1.0.0",
-  hasPermssion: 2,
-  credits: "NTKhang",
-  description: "config bot!",
-  commandCategory: "admin",
-  cooldowns: 5
-};
-
+		}
 langs: {
   "vi": {},
   "en": {}
