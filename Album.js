@@ -18,8 +18,6 @@ module.exports = {
 
 onStart:async function ({ api, event, args}) {
   if (!args[0]){
-    { api.setMessageReaction("😘", event.messageID, (err) => {}, true);
-    }
   const albumOptions = [
     "𝗙𝘂𝗻𝗻𝘆 𝘃𝗶𝗱𝗲𝗼",
      "𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝘃𝗶𝗱𝗲𝗼",
